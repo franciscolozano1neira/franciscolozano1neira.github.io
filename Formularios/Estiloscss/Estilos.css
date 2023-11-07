@@ -1,0 +1,15 @@
+html{
+	background: linear-gradient(to bottom,rgb(3, 121, 111),rgb(74, 7, 182));
+	background-repeat: no-repeat;
+	height: 100%;
+	
+}
+legend{
+	text-align: center;
+	font-weight: bolder;
+	color:goldenrod;
+}
+p{
+	color: goldenrod;
+	font-weight: bolder;
+}
