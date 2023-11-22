@@ -9,30 +9,50 @@
 <body>
 	<form>
 		<header>
-			<fieldset>
+			<h1>Formulario</h1>
+			<nav>
+				<ul>
+					<li>inicio</li>
+					<li>CV</li>
+					<li>Sobre mi</li>
+					<li>Formulario</li>
+				</ul>
+			</nav>
+
+		</header>	
+		<main>
+			<fieldset class="vertical">
 				<legend>Datos de la empresa</legend>
 				<label><p>Nombre de la empresa <input type="text" name="Empresa" size="33"</p></level>
-				<label><p>Correo Electronico de la empresa <input type="text" name="Correo" size="33"></p></label>
+				<label><p>Correo Electronico de la empresa <input type="email" name="Correo" size="33"></p></label>
 				<label><p>Numero de contacto <input type="number" name="Telefono" size="15"></p></label>
 				<label><p>Direccion de la empresa <input type="text" name="Direccion" size="45"></p></label>
 	    	</fieldset>
-		</header>	
-		<main>
-			<fieldset>
+			<fieldset >
 				<legend>Datos de contacto</legend>
 				<label><p>Nombre <input type="text" name="nombre" size="25"></p></label>
-				<label><p>Correo de contacto <input type="text" name="Correo" size="25"></p></label>
+				<label><p>Correo de contacto <input type="email" name="Correo" size="25"></p></label>
+				<label><p>Fecha <input type="date" name="Fecha"></p></label>
 				<label><p>Sector Laboral <input type="text" name="Sector laboral" size="20"></p></label>				
 			</fieldset>
 			<fieldset>
 				<legend>Informacion Laboral</legend>
-				<label><p>Puesto de trabajo <input type="" name="" size=""></p></label>
-				<label><p>Horas laborales <input type="" name="" size=""></p></label>
-				<label><p>Turnos <input type="" name="" size=""></p></label>
-				<label><p>Teletrabajo <input type="" name="" size=""></p></label>
-				<label><p>Salario <input type="" name="" size=""></p></label>
+				<label><p>Puesto de trabajo <input type="text" name="Puesto buscado" size="20"></p></label>
+				<label><p>Horas laborales <input type="number" name="horas" size="5"></p></label>
+				<label><p>Turno<select>
+					<option value=""></option>
+					<option value="Diurno">Diurno</option>
+					<option value="Vespertino">Vespertino</option>
+					<option value="Nocturno">Nocturno</option>
+				</select> 
+				<label><p>Teletrabajo 
+					<label><input type="radio" name="sn" value="si">SI
+					</label><label><input type="radio" name="sn" value="no">NO</p></label>
+					
+				<label><p>Salario anual  15000$ <input type="range" name="Rango"> 85000$ </p></label>
 				<label><p>Horas extras <input type="" name="" size=""></p></label>
 				<label><p>Nivel de ingles<select>
+					<option value=""></option>
 					<option value="A1">A1</option>
 					<option value="A2">A2</option>
 					<option value="B1">B1</option>
@@ -49,22 +69,16 @@
 				<label><p>Guardias 
 					<label><input type="radio" name="sn" value="si">SI</label>
 					<label><input type="radio" name="sn" value="no">NO</p></label>
-
-
+			</fieldset>
+			<fieldset>
+				
+				<label>
+					<input type="submit" name="Enviar" size="7">
+				</label>
 
 			</fieldset>
 
-
-
-
-
-
-
 		</main>
-
-
-
-
 	</form>
 </body>
 </html>

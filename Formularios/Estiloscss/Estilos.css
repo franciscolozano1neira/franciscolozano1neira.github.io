@@ -4,7 +4,15 @@ html{
 	height: 100%;
 	
 }
+h1{
+	text-align: center;
+}
+nav{
+	border: 3px black solid;
+	display: ;
+}
 legend{
+	border: 6px black solid;
 	text-align: center;
 	font-weight: bolder;
 	color:goldenrod;
@@ -12,4 +20,12 @@ legend{
 p{
 	color: goldenrod;
 	font-weight: bolder;
+}
+
+fieldset{
+	border: 6px black solid;
+	margin-top: 100px;
+	margin-left: 15%;
+    margin-right: 15%;
+
 }
