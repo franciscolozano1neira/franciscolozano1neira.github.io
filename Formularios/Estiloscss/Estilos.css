@@ -1,7 +1,7 @@
 html{
 	background: linear-gradient(to bottom,rgb(3, 121, 111),rgb(74, 7, 182));
 	background-repeat: no-repeat;
-	height: 100%;
+	height: 120%;
 	
 }
 h1{
@@ -9,6 +9,7 @@ h1{
 }
 nav{
 	border: 3px black solid;
+	
 	
 }
 legend{
@@ -21,11 +22,33 @@ p{
 	color: goldenrod;
 	font-weight: bolder;
 }
+ul{
+	list-style: none;
+}
+.horizontal{ 
+	background-color: black;
+	color: white;
+
+}
+.Vertical{
+margin-top: 5%;
+float: left;
+padding-left: 3px;
+margin-right:50px ;
+width: 250px;
+height:650px ;
+background-color: black;
+	color: white;
+}
 
 fieldset{
-	border: 6px black solid;
-	margin-top: 100px;
-	margin-left: 15%;
-    margin-right: 15%;
+	border: 6px goldenrod solid;
+	margin-top: 5%;
+	margin-left: 20%;
+    margin-right: 10%;
+	
 
+}
+footer{
+	border: 2px black solid;
 }
