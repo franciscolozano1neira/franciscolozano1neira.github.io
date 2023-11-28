@@ -70,14 +70,13 @@ header {
   }
   
   .contenido {
-	/*float: left;*/
+
 	padding: 20px;
 	column-count: 3;
 	text-align: center;	
 	display: inline;
   }
   section{
-	/*float: left;*/
 	padding: 20px;
 	column-count: 2;
 	text-align: center;	
@@ -96,29 +95,14 @@ header {
 h2{
 	text-align: center;
 }
-
-img.musica{
-    width: 40%; /* Anchura */
+h3 {
     margin-top: 0px; /* Margen de arriba */
-    margin-left: 145px; /* Margen de la izquierda */
-    margin-top: 0px; /* Margen de arriba */
-    border: 2px black solid; /* Características del borde */
-
+    text-align: center; /* Texto alineado al centro */
 }
-img.Cine{
-    width: 40%; /* Anchura */
-    height: 105px; /* Altura */
-    margin-top: 0px; /* Margen de arriba */
-    margin-left: 145px; /* Margen de la izquierda */
-    border: 2px black solid; /* Características del borde */
+p{
+    text-indent: 25px; /* Sangría del párrafo */
+	text-align: center;
 }
-.Tiktok{
-    text-align: center; /* Alineación del texto al centro */
-}
-img.tiktok{
-    border: 2px black solid; /* Características el borde */
-}
-
   
   /* Estilos para el footer */
   footer {
@@ -133,15 +117,8 @@ img.tiktok{
   
   .footer p {
 	margin: 0;
-  }*/
-  h3 {
-    margin-top: 0px; /* Margen de arriba */
-    text-align: center; /* Texto alineado al centro */
-}
-p{
-    text-indent: 25px; /* Sangría del párrafo */
-	text-align: center;
-}
+  }
+
 /* Fondo de la página */
 
 
