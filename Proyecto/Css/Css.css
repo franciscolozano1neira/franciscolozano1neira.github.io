@@ -1,0 +1,134 @@
+html {
+	height: 100%;
+	background: linear-gradient(90deg, #23ceec, #5a0f68);
+  }
+  header {
+
+	text-align: center;
+	font-size: x-large;
+	color: white;
+
+  }
+  
+  .navbar {
+	display: flex;
+	justify-content: center;
+	border: 5px goldenrod solid;
+	background-color:#333;
+	color: #fff;
+	padding: 40px 0;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px white;
+	margin-top: 2%;
+
+}
+  
+  .navbar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .navbar ul li {
+	display: inline;
+	margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+	text-decoration: none;
+	color: #fff;
+  }
+  
+  /* Estilos para el main */
+  main {
+	margin-top: 50px;
+	margin-bottom: 50px;
+  }
+  
+  .sidebar {
+	border: 5px goldenrod solid;
+	background-color: #000;
+	width: 200px;
+	height: 1172PX;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px white;
+	float: left;
+	margin-bottom: 3%;
+	margin-top: 0% ;  
+}
+  
+   ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  
+  .sidebar ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+  }
+  .todo {
+	/*width: 80%;*/
+	height: auto;
+	border:  5px goldenrod solid;
+	box-shadow: 5px 5px 10px white; 
+	margin-left: 15%;
+	margin-right: 15%;
+	border-radius: 8px;
+	margin-bottom: 3%;
+	margin-top: 5%;
+	
+	
+	
+}
+.top{
+	text-align: center;
+	border:  5px goldenrod solid;
+	padding-bottom: 50%;
+	
+
+}
+.medio{
+	text-align: center;
+	border:  5px goldenrod solid;
+	
+
+
+}
+.bottom{
+	text-align: center;
+	border:  5px goldenrod solid;
+	height: 300px;
+	
+
+
+} 
+h2{
+	text-align: center;
+}
+
+  /* Estilos para los enlaces */
+  /*a {
+	text-decoration: none;
+	color: #333;
+	display: block;
+	margin-top: 10px;
+  }*/
+  
+  /* Estilos para el footer */
+  footer {
+	border: 5px goldenrod solid;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 40px 0;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px white;
+	margin-top: 5%;
+  }
+  
+  .footer p {
+	margin: 0;
+  }
