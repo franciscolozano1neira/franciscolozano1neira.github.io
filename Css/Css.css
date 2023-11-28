@@ -3,7 +3,6 @@ html {
 	background: linear-gradient(90deg, #00bcd4, #9c27b0);
   }
 header {
-
 	text-align: center;
 	font-size: x-large;
 	color: white;
@@ -70,7 +69,6 @@ header {
   }
   
   .contenido {
-
 	padding: 20px;
 	column-count: 3;
 	text-align: center;	
