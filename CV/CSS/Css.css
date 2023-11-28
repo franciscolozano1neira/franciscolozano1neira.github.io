@@ -48,10 +48,12 @@ html {
 	border: 5px goldenrod solid;
 	background-color: #000;
 	width: 200px;
-	height: 877px;
+	height: 894px;
 	border-radius: 8px;
 	box-shadow: 5px 5px 10px white;
 	float: left;
+	margin-bottom: 3%;
+	margin-top: 0%;
   }
   
    ul {
@@ -74,11 +76,12 @@ html {
     width: 100%;
 	border:  5px goldenrod solid;
 	width: 1000px;
-	margin-left:20% ;
+	margin-left:24% ;
 	padding: 20px;
 	border-radius: 8px;
 	box-shadow: 5px 5px 10px white;
 	margin-bottom: 5%;
+	margin-top: 5%;
 	
 	
 }

@@ -42,18 +42,19 @@ html {
   /* Estilos para el main */
   main {
 	margin-top: 50px;
-	display: flex;
-	flex-direction: row;
-  }
+	margin-bottom: 50px;}
   
   .sidebar {
 	border: 5px goldenrod solid;
 	background-color: #000;
 	width: 200px;
-	height: 779px;
+	height: 970px;
 	border-radius: 8px;
-	box-shadow: 5px 5px 10px white
-  }
+	box-shadow: 5px 5px 10px white;
+	margin-bottom: 3%;
+	margin-top: 5%;
+	float: left;  
+}
   
    ul {
 	list-style: none;
@@ -72,11 +73,6 @@ html {
 	flex-grow: 1;
 	padding: 20px;
   }
-
-  .content {
-	flex-grow: 1;
-	padding: 10px;
-  }
   
   /* Estilos para el formulario */
   .form {
@@ -87,8 +83,10 @@ html {
 	display:flex;
 	flex-direction: column;
 	width: 350px;
-	margin-left: 15%;
+	margin-top: 4%;
+	margin-left: 25%;
 	margin-right: 3%;
+	margin-bottom: 3%;
 	color: black;
 	border-radius: 8px;
 	box-shadow: 5px 5px 10px white

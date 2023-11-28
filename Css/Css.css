@@ -41,20 +41,18 @@ header {
   /* Estilos para el main */
 
   main {
-	width: 75%; /* Anchura */
-    margin-left: 50px; /* Margen de la izquierda */
-    padding: 10px; /* Espacio entre el contenido y su borde */
-  }
+	margin-top: 50px;
+	margin-bottom: 50px;}
  
   .sidebar {
 	border: 5px goldenrod solid;
 	background-color: #000;
 	width: 200px;
-	height: 800px;
+	height: 827px;
 	border-radius: 8px;
 	box-shadow: 5px 5px 10px white;
-	margin-bottom: 45px;
-	margin-top: 45px ;
+	margin-bottom: 3%;
+	margin-top: 0%;
 	float: left;
   }
   
@@ -88,11 +86,12 @@ header {
   }
   .Datos{
 	border:  5px goldenrod solid;
-	margin-left: 25%;
-	margin-top: 45px;
+	margin-left: 15%;
+	margin-top: 5%;
 	box-shadow: 5px 5px 10px white;
 	border-radius: 8px;
 	margin-bottom: 3%;
+	margin-right: 5%;
   }
 h2{
 	text-align: center;
